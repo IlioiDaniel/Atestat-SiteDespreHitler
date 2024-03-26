@@ -1,0 +1,30 @@
+.bara{
+    width: 99vw;
+    height: 10vh;
+    display: flex;
+
+    /* align-items:center; */
+    justify-content: end;
+    padding:0.5vw;
+    background-color: #0c0b3d;
+
+
+}
+
+
+.bara h1{
+
+    color: aliceblue;
+
+}
+
+.bara button,a {
+    padding: 15px;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    padding: 0;
+    border: none;
+    background: none;
+  }
+
