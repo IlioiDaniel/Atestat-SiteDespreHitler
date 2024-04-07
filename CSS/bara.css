@@ -1,5 +1,5 @@
 .bara{
-    width: 99vw;
+    width: 100vw;
     height: 10vh;
     display: flex;
 
@@ -12,7 +12,7 @@
 }
 
 
-.bara h1{
+.bara button{
 
     color: aliceblue;
 

@@ -12,6 +12,11 @@ body{
     margin-left: 10%;
 }
    
+.Total{
+    display: flex;
+    background-color: aliceblue;
+
+}
 
 
 .Imagine{
@@ -25,7 +30,6 @@ body{
     background-color: aliceblue;
     max-width: 50vw;
     padding: 10px;
-    height: 73vh;
 }
 .Sectiune{
     font-weight:bold;

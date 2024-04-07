@@ -1,7 +1,7 @@
 body {
     background-size: cover;
     width: 99vw;
-    background: linear-gradient(to left,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%)
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%);
 }
 
 .container-fluid {
@@ -11,28 +11,39 @@ body {
 }
 
 .contetnt {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
-.pair{
-    margin:auto
+
+.pair {
+    display: flex;
 }
+
 .pic {
     margin-left: auto;
-    max-height: 50%;
+    margin-left: 10px;
+    max-height: 70%;
     margin-top: 10px;
-    border: 1px solid #ccc; /* Border around each image */
-    border-radius: 8px; /* Rounded corners for the images */
-    overflow: hidden; /* Hide overflow to prevent image overflow */
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    overflow: hidden; 
+    position: relative; 
 }
 
 .pic img {
-    width: 100%;
-    height: auto;
+    width: 30vw;
+    height: 40vh;
 }
 
-
-.pic3{
-    max-width: 0%;
+.numePoza {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
 }
